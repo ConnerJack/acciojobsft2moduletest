@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+  }
+
+  .container {
+    padding: 2px 30px;
+  }
+  
+  .form-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .input-style {
+    margin-right: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+  }
+
+ 
+
+  .form-group{
+    margin-bottom: 20px;
+  }
+
+  .submitbtn {
+    background-color:v white;
+  padding: 10px 80px 10px 80px;
+  width: 428px;
+  color: black;
+  border: none;
+  font-size: 20px;
+  }
+
+  .searchContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .searchContainer input {
+    height: 30px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+  }
+
+
+
+  table {
+    color: white;
+    width: 100%;
+    /* border: #FCAF02 1px solid; */
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 5%;
+  }
+  
+  th {
+    border: white 1px solid;
+    padding: 10px 40px;
+    
+  }
+  
+  td {
+    border: white 1px solid;
+    padding: 15px 40px;
+  }
+
+
+  .deletebtn {
+    background-color: transparent;
+  }
+
+  button {
+    border: none;
+  }
+
+  .trashimg{
+    width: 15px;
+  }
+  .degreecont {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #nodatatitle {
+   display: flex;
+   justify-content: center;
+  }
+  
